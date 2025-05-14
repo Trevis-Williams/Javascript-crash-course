@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forof loop practice</title>
+    <title>For of loop practice</title>
 </head>
 <body>
+
+    <p>How this works?</p>
     <script>
         let cars = ["honda", "jeep", "chevy"]
         for (let number of cars ){
-            console.log(`There are these typeof brands avaible ${number}`);
+            console.log(`There are these type of brands avaible ${number}`);
+            if( number === "honda"){
+                console.log(`You are in a honda!!!`)
+            }
         };
     </script>
 </body>
@@ -22,4 +27,5 @@
  <!-- If I change the temrale litirale to cars it will print the whole array. 
  The reason this is happeing is beccause the temprale litrale is the whole veriable. 
  Unlike number it doesnt assine each string in the array a value -->
+
 
